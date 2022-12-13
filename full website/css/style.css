@@ -1,0 +1,127 @@
+/* Q#: All the elements have margin of 0 from the top, bottom, left, and right */ 
+* { 
+    margin: 0; 
+} 
+
+
+body {
+    color:black;
+    /* background-image: url("../assets/images/dark-woods/dark-wood2.jpg"); */
+    background-color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header, footer, nav, main, video {
+    display: block;
+}
+
+.container{
+    background-color: rgb(163, 238, 255);
+    width : 1100px;
+    margin :0 auto 0 auto;
+}
+
+* h2 {
+    color: aliceblue;
+}
+
+.content{
+    background-color:rgb(163, 238, 255);
+}
+
+* image {
+    text-align : center;
+}
+
+footer{
+    color:violet;
+}
+
+nav#main-nav li{
+    display: inline;
+    margin-right: 200px;
+    text-transform: uppercase;
+}
+
+img, video, fieldset, iframe{
+    width: 600px;
+    display:block;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+
+thead tr{
+    background-color :aqua;
+    color:white;
+    text-align:left;
+}
+
+th, td{
+    padding: 15px 20px;
+}
+
+tbody tr, td, th{
+    border : 1px solid grey;
+
+}
+
+th{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p, h1, h2, h3{
+    text-indent:20px;
+}
+
+legend {
+    font-size:italic;
+    background-color:white;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right:10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 30px;
+
+}
+
+fieldset {
+    width: 500px;
+    margin-top: 20;
+    margin-bottom: 20;
+    background-color:antiquewhite;
+    border-radius:30px;
+
+}
+
+iframe {
+    margin-top: 10p;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align:center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    padding-right:0;
+
+}
+
+dt {
+    font-weight:bold;
+}
+
+div {
+    line-height:1,4em;
+    padding:10px;
+}
+
+
+
